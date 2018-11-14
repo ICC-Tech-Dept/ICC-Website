@@ -1,0 +1,2348 @@
+/*! Realism Design v0.1.0 | MIT License | https://github.com/uncertainty-cc/Realism-Design */
+
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+/* Layout
+  ====================================
+ */.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
+}
+
+.col .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.col {
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0.75rem;
+  min-height: 1px;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}.col.s1 {
+  width: 6.25%;
+}
+.col.s2 {
+  width: 12.50%;
+}
+.col.s3 {
+  width: 18.75%;
+}
+.col.s4 {
+  width: 25.00%;
+}
+.col.s5 {
+  width: 31.25%;
+}
+.col.s6 {
+  width: 37.50%;
+}
+.col.s7 {
+  width: 43.75%;
+}
+.col.s8 {
+  width: 50.00%;
+}
+.col.s9 {
+  width: 56.25%;
+}
+.col.s10 {
+  width: 62.50%;
+}
+.col.s11 {
+  width: 68.75%;
+}
+.col.s12 {
+  width: 75.00%;
+}
+.col.s13 {
+  width: 81.25%;
+}
+.col.s14 {
+  width: 87.50%;
+}
+.col.s15 {
+  width: 93.75%;
+}
+.col.s16 {
+  width: 100.00%;
+}
+@media only screen and (min-width: 601px) {  .col.m1 {
+    width: 6.25%;
+  }
+  .col.m2 {
+    width: 12.50%;
+  }
+  .col.m3 {
+    width: 18.75%;
+  }
+  .col.m4 {
+    width: 25.00%;
+  }
+  .col.m5 {
+    width: 31.25%;
+  }
+  .col.m6 {
+    width: 37.50%;
+  }
+  .col.m7 {
+    width: 43.75%;
+  }
+  .col.m8 {
+    width: 50.00%;
+  }
+  .col.m9 {
+    width: 56.25%;
+  }
+  .col.m10 {
+    width: 62.50%;
+  }
+  .col.m11 {
+    width: 68.75%;
+  }
+  .col.m12 {
+    width: 75.00%;
+  }
+  .col.m13 {
+    width: 81.25%;
+  }
+  .col.m14 {
+    width: 87.50%;
+  }
+  .col.m15 {
+    width: 93.75%;
+  }
+  .col.m16 {
+    width: 100.00%;
+  }
+}
+@media only screen and (min-width: 993px) {  .col.l1 {
+    width: 6.25%;
+  }
+  .col.l2 {
+    width: 12.50%;
+  }
+  .col.l3 {
+    width: 18.75%;
+  }
+  .col.l4 {
+    width: 25.00%;
+  }
+  .col.l5 {
+    width: 31.25%;
+  }
+  .col.l6 {
+    width: 37.50%;
+  }
+  .col.l7 {
+    width: 43.75%;
+  }
+  .col.l8 {
+    width: 50.00%;
+  }
+  .col.l9 {
+    width: 56.25%;
+  }
+  .col.l10 {
+    width: 62.50%;
+  }
+  .col.l11 {
+    width: 68.75%;
+  }
+  .col.l12 {
+    width: 75.00%;
+  }
+  .col.l13 {
+    width: 81.25%;
+  }
+  .col.l14 {
+    width: 87.50%;
+  }
+  .col.l15 {
+    width: 93.75%;
+  }
+  .col.l16 {
+    width: 100.00%;
+  }
+}
+/* Typography
+  ====================================
+ */html {
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+h1.underline, h2.underline, h3.underline {
+  border-bottom: 1px solid rgba(170, 170, 170, 0.33);
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+a {
+  color: #28C8FA;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+  color: #14B4E6;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+li > a {
+  color: inherit;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 500;
+}
+
+pre, code {
+  font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 0.87rem;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 0.2rem;
+}
+
+pre {
+  padding: 1rem;
+  overflow: auto;
+  font-size: 0.87rem;
+  line-height: 1.1rem;
+  background-color: #F6F8FA;
+  border-radius: 0.2rem;
+  white-space: pre;
+}
+
+pre::-webkit-scrollbar {
+  width: 0.28rem;
+  height: 0.28rem;
+}
+pre::-webkit-scrollbar-thumb {
+  border-radius: 0.2rem;
+  background: #A5A3A2;
+}
+pre::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #E1E0E0;
+}
+
+pre.dark {
+  padding: 1rem;
+  overflow: auto;
+  font-size: 0.87rem;
+  line-height: 1.1rem;
+  background-color: #303040;
+  color: #EEEFF1;
+  border-radius: 0.2rem;
+  white-space: pre;
+}
+
+/* List
+  ====================================
+ */ul:not(.browser-default) {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul:not(.browser-default) li {
+  list-style-type: none;
+}
+
+.list {
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #EEEEEE;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select:none;
+     -moz-user-select:none;
+       -ms-user-select:none;
+              user-select:none;
+}
+
+.list .item, .list li{
+  background-color: #FFFFFF;
+  line-height: 1.5rem;
+  padding: 0.5rem 1.2rem;
+  margin: 0;
+  display: block;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.list .item:hover, .list li:hover{
+  background-color: rgba(127,127,127,0.04);
+  border-bottom: 1px solid #F6F6F6;
+}
+
+ul .list, .list .list {
+  margin: 0;
+  border: 0;
+  padding-left: 1rem;
+}
+
+.dropdown {
+  display: none;
+}
+/* Input
+  ====================================
+ */input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+  background-color: rgba(255,255,255,0.87);
+  border: none;
+  border-bottom: 1px solid #999999;
+  outline: none;
+  height: 2.4rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 8px 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+               box-shadow: none;
+  -webkit-box-sizing: content-box;
+               box-sizing: content-box;
+  -webkit-transition: border .3s, -webkit-box-shadow .3s;
+               transition: border .3s, -webkit-box-shadow .3s;
+               transition: box-shadow .3s, border .3s;
+               transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+input:not([type]):disabled, input:not([type])[readonly="readonly"],
+input[type=text]:not(.browser-default):disabled,
+input[type=text]:not(.browser-default)[readonly="readonly"],
+input[type=password]:not(.browser-default):disabled,
+input[type=password]:not(.browser-default)[readonly="readonly"],
+input[type=email]:not(.browser-default):disabled,
+input[type=email]:not(.browser-default)[readonly="readonly"],
+input[type=url]:not(.browser-default):disabled,
+input[type=url]:not(.browser-default)[readonly="readonly"],
+input[type=time]:not(.browser-default):disabled,
+input[type=time]:not(.browser-default)[readonly="readonly"],
+input[type=date]:not(.browser-default):disabled,
+input[type=date]:not(.browser-default)[readonly="readonly"],
+input[type=datetime]:not(.browser-default):disabled,
+input[type=datetime]:not(.browser-default)[readonly="readonly"],
+input[type=datetime-local]:not(.browser-default):disabled,
+input[type=datetime-local]:not(.browser-default)[readonly="readonly"],
+input[type=tel]:not(.browser-default):disabled,
+input[type=tel]:not(.browser-default)[readonly="readonly"],
+input[type=number]:not(.browser-default):disabled,
+input[type=number]:not(.browser-default)[readonly="readonly"],
+input[type=search]:not(.browser-default):disabled,
+input[type=search]:not(.browser-default)[readonly="readonly"],
+textarea.materialize-textarea:disabled,
+textarea.materialize-textarea[readonly="readonly"] {
+  color: rgba(0, 0, 0, 0.42);
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
+}
+
+input:not([type]):disabled + label,
+input:not([type])[readonly="readonly"] + label,
+input[type=text]:not(.browser-default):disabled + label,
+input[type=text]:not(.browser-default)[readonly="readonly"] + label,
+input[type=password]:not(.browser-default):disabled + label,
+input[type=password]:not(.browser-default)[readonly="readonly"] + label,
+input[type=email]:not(.browser-default):disabled + label,
+input[type=email]:not(.browser-default)[readonly="readonly"] + label,
+input[type=url]:not(.browser-default):disabled + label,
+input[type=url]:not(.browser-default)[readonly="readonly"] + label,
+input[type=time]:not(.browser-default):disabled + label,
+input[type=time]:not(.browser-default)[readonly="readonly"] + label,
+input[type=date]:not(.browser-default):disabled + label,
+input[type=date]:not(.browser-default)[readonly="readonly"] + label,
+input[type=datetime]:not(.browser-default):disabled + label,
+input[type=datetime]:not(.browser-default)[readonly="readonly"] + label,
+input[type=datetime-local]:not(.browser-default):disabled + label,
+input[type=datetime-local]:not(.browser-default)[readonly="readonly"] + label,
+input[type=tel]:not(.browser-default):disabled + label,
+input[type=tel]:not(.browser-default)[readonly="readonly"] + label,
+input[type=number]:not(.browser-default):disabled + label,
+input[type=number]:not(.browser-default)[readonly="readonly"] + label,
+input[type=search]:not(.browser-default):disabled + label,
+input[type=search]:not(.browser-default)[readonly="readonly"] + label,
+textarea.materialize-textarea:disabled + label,
+textarea.materialize-textarea[readonly="readonly"] + label {
+  color: rgba(0, 0, 0, 0.42);
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #8895A2;
+  -webkit-box-shadow: 0 1px 0 0 #8895A2;
+               box-shadow: 0 1px 0 0 #8895A2;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #8895A2;
+}
+
+input:not([type]):focus.valid ~ label,
+input[type=text]:not(.browser-default):focus.valid ~ label,
+input[type=password]:not(.browser-default):focus.valid ~ label,
+input[type=email]:not(.browser-default):focus.valid ~ label,
+input[type=url]:not(.browser-default):focus.valid ~ label,
+input[type=time]:not(.browser-default):focus.valid ~ label,
+input[type=date]:not(.browser-default):focus.valid ~ label,
+input[type=datetime]:not(.browser-default):focus.valid ~ label,
+input[type=datetime-local]:not(.browser-default):focus.valid ~ label,
+input[type=tel]:not(.browser-default):focus.valid ~ label,
+input[type=number]:not(.browser-default):focus.valid ~ label,
+input[type=search]:not(.browser-default):focus.valid ~ label,
+textarea.materialize-textarea:focus.valid ~ label {
+  color: #5FDF75;
+}
+
+input:not([type]):focus.invalid ~ label,
+input[type=text]:not(.browser-default):focus.invalid ~ label,
+input[type=password]:not(.browser-default):focus.invalid ~ label,
+input[type=email]:not(.browser-default):focus.invalid ~ label,
+input[type=url]:not(.browser-default):focus.invalid ~ label,
+input[type=time]:not(.browser-default):focus.invalid ~ label,
+input[type=date]:not(.browser-default):focus.invalid ~ label,
+input[type=datetime]:not(.browser-default):focus.invalid ~ label,
+input[type=datetime-local]:not(.browser-default):focus.invalid ~ label,
+input[type=tel]:not(.browser-default):focus.invalid ~ label,
+input[type=number]:not(.browser-default):focus.invalid ~ label,
+input[type=search]:not(.browser-default):focus.invalid ~ label,
+textarea.materialize-textarea:focus.invalid ~ label {
+  color: #FF5148;
+}
+
+input:not([type]).validate + label,
+input[type=text]:not(.browser-default).validate + label,
+input[type=password]:not(.browser-default).validate + label,
+input[type=email]:not(.browser-default).validate + label,
+input[type=url]:not(.browser-default).validate + label,
+input[type=time]:not(.browser-default).validate + label,
+input[type=date]:not(.browser-default).validate + label,
+input[type=datetime]:not(.browser-default).validate + label,
+input[type=datetime-local]:not(.browser-default).validate + label,
+input[type=tel]:not(.browser-default).validate + label,
+input[type=number]:not(.browser-default).validate + label,
+input[type=search]:not(.browser-default).validate + label,
+textarea.materialize-textarea.validate + label {
+  width: 100%;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}
+input::-moz-placeholder {
+  color: #999;
+}
+input:-moz-placeholder {
+  color: #999;
+}
+input:-ms-input-placeholder {
+  color: #999;
+}
+
+.input-field {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.input-field > label {
+  color: #999;
+  position: absolute;
+  pointer-events: none; 
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  cursor: text;
+  -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
+  transition: color .2s ease-out, -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out, color .2s ease-out;
+  transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out;
+  -webkit-transform-origin: 0% 100%;
+               transform-origin: 0% 100%;
+  text-align: initial;
+  -webkit-transform: translateY(12px);
+               transform: translateY(12px);
+}
+
+.input-field > label:not(.label-icon).active {
+  -webkit-transform: translateY(-14px) scale(0.8);
+               transform: translateY(-14px) scale(0.8);
+  -webkit-transform-origin: 0 0;
+               transform-origin: 0 0;
+}
+/* Helper
+  ====================================
+ */.center {
+  text-align: center;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+/* Color
+  ====================================
+ */
+.red-10 {
+  background: #FF100FD;
+}
+.red-10-text {
+  color: #FF100FD;
+}
+.red-20 {
+  background: #FFE4E0;
+}
+.red-20-text {
+  color: #FFE4E0;
+}
+.red-30 {
+  background: #FFC8C3;
+}
+.red-30-text {
+  color: #FFC8C3;
+}
+.red-40 {
+  background: #FFACA6;
+}
+.red-40-text {
+  color: #FFACA6;
+}
+.red-50 {
+  background: #FF9089;
+}
+.red-50-text {
+  color: #FF9089;
+}
+.red-60 {
+  background: #FF746C;
+}
+.red-60-text {
+  color: #FF746C;
+}
+.red-70 {
+  background: #FF584F;
+}
+.red-70-text {
+  color: #FF584F;
+}
+.red-80 {
+  background: #FF3C32;
+}
+.red-80-text {
+  color: #FF3C32;
+}
+.red-90 {
+  background: #D9312A;
+}
+.red-90-text {
+  color: #D9312A;
+}
+.red-100 {
+  background: #BA2A24;
+}
+.red-100-text {
+  color: #BA2A24;
+}
+.red-110 {
+  background: #9B231E;
+}
+.red-110-text {
+  color: #9B231E;
+}
+.red-120 {
+  background: #7C1C18;
+}
+.red-120-text {
+  color: #7C1C18;
+}
+.red-130 {
+  background: #5D1512;
+}
+.red-130-text {
+  color: #5D1512;
+}
+.red-140 {
+  background: #3E0E0C;
+}
+.red-140-text {
+  color: #3E0E0C;
+}
+.red-150 {
+  background: #1F0706;
+}
+.red-150-text {
+  color: #1F0706;
+}
+.pink-10 {
+  background: #100FFFD;
+}
+.pink-10-text {
+  color: #100FFFD;
+}
+.pink-20 {
+  background: #FDE1EA;
+}
+.pink-20-text {
+  color: #FDE1EA;
+}
+.pink-30 {
+  background: #FAC3D7;
+}
+.pink-30-text {
+  color: #FAC3D7;
+}
+.pink-40 {
+  background: #F7A5C4;
+}
+.pink-40-text {
+  color: #F7A5C4;
+}
+.pink-50 {
+  background: #F487B1;
+}
+.pink-50-text {
+  color: #F487B1;
+}
+.pink-60 {
+  background: #F1699E;
+}
+.pink-60-text {
+  color: #F1699E;
+}
+.pink-70 {
+  background: #EE4B8B;
+}
+.pink-70-text {
+  color: #EE4B8B;
+}
+.pink-80 {
+  background: #EB2D78;
+}
+.pink-80-text {
+  color: #EB2D78;
+}
+.pink-90 {
+  background: #CB2369;
+}
+.pink-90-text {
+  color: #CB2369;
+}
+.pink-100 {
+  background: #AE1E5A;
+}
+.pink-100-text {
+  color: #AE1E5A;
+}
+.pink-110 {
+  background: #91194B;
+}
+.pink-110-text {
+  color: #91194B;
+}
+.pink-120 {
+  background: #74143C;
+}
+.pink-120-text {
+  color: #74143C;
+}
+.pink-130 {
+  background: #570F2D;
+}
+.pink-130-text {
+  color: #570F2D;
+}
+.pink-140 {
+  background: #3A0A1E;
+}
+.pink-140-text {
+  color: #3A0A1E;
+}
+.pink-150 {
+  background: #1D050F;
+}
+.pink-150-text {
+  color: #1D050F;
+}
+.purple-10 {
+  background: #FF100FB;
+}
+.purple-10-text {
+  color: #FF100FB;
+}
+.purple-20 {
+  background: #F0E4F3;
+}
+.purple-20-text {
+  color: #F0E4F3;
+}
+.purple-30 {
+  background: #E1C8EB;
+}
+.purple-30-text {
+  color: #E1C8EB;
+}
+.purple-40 {
+  background: #D2ACE3;
+}
+.purple-40-text {
+  color: #D2ACE3;
+}
+.purple-50 {
+  background: #C390DB;
+}
+.purple-50-text {
+  color: #C390DB;
+}
+.purple-60 {
+  background: #B474D3;
+}
+.purple-60-text {
+  color: #B474D3;
+}
+.purple-70 {
+  background: #A558CB;
+}
+.purple-70-text {
+  color: #A558CB;
+}
+.purple-80 {
+  background: #963CC3;
+}
+.purple-80-text {
+  color: #963CC3;
+}
+.purple-90 {
+  background: #7E31A8;
+}
+.purple-90-text {
+  color: #7E31A8;
+}
+.purple-100 {
+  background: #6C2A90;
+}
+.purple-100-text {
+  color: #6C2A90;
+}
+.purple-110 {
+  background: #5A2378;
+}
+.purple-110-text {
+  color: #5A2378;
+}
+.purple-120 {
+  background: #481C60;
+}
+.purple-120-text {
+  color: #481C60;
+}
+.purple-130 {
+  background: #361548;
+}
+.purple-130-text {
+  color: #361548;
+}
+.purple-140 {
+  background: #240E30;
+}
+.purple-140-text {
+  color: #240E30;
+}
+.purple-150 {
+  background: #120718;
+}
+.purple-150-text {
+  color: #120718;
+}
+.deep-purple-10 {
+  background: #FEFFFC;
+}
+.deep-purple-10-text {
+  color: #FEFFFC;
+}
+.deep-purple-20 {
+  background: #E8E6F6;
+}
+.deep-purple-20-text {
+  color: #E8E6F6;
+}
+.deep-purple-30 {
+  background: #D2CDF0;
+}
+.deep-purple-30-text {
+  color: #D2CDF0;
+}
+.deep-purple-40 {
+  background: #BCB4EA;
+}
+.deep-purple-40-text {
+  color: #BCB4EA;
+}
+.deep-purple-50 {
+  background: #A69BE4;
+}
+.deep-purple-50-text {
+  color: #A69BE4;
+}
+.deep-purple-60 {
+  background: #9082DE;
+}
+.deep-purple-60-text {
+  color: #9082DE;
+}
+.deep-purple-70 {
+  background: #7A69D8;
+}
+.deep-purple-70-text {
+  color: #7A69D8;
+}
+.deep-purple-80 {
+  background: #6450D2;
+}
+.deep-purple-80-text {
+  color: #6450D2;
+}
+.deep-purple-90 {
+  background: #5446B6;
+}
+.deep-purple-90-text {
+  color: #5446B6;
+}
+.deep-purple-100 {
+  background: #483C9C;
+}
+.deep-purple-100-text {
+  color: #483C9C;
+}
+.deep-purple-110 {
+  background: #3C3282;
+}
+.deep-purple-110-text {
+  color: #3C3282;
+}
+.deep-purple-120 {
+  background: #302868;
+}
+.deep-purple-120-text {
+  color: #302868;
+}
+.deep-purple-130 {
+  background: #241E4E;
+}
+.deep-purple-130-text {
+  color: #241E4E;
+}
+.deep-purple-140 {
+  background: #181434;
+}
+.deep-purple-140-text {
+  color: #181434;
+}
+.deep-purple-150 {
+  background: #0C0A1A;
+}
+.deep-purple-150-text {
+  color: #0C0A1A;
+}
+.indigo-10 {
+  background: #FFFDFF;
+}
+.indigo-10-text {
+  color: #FFFDFF;
+}
+.indigo-20 {
+  background: #E6E5FA;
+}
+.indigo-20-text {
+  color: #E6E5FA;
+}
+.indigo-30 {
+  background: #CDCDF5;
+}
+.indigo-30-text {
+  color: #CDCDF5;
+}
+.indigo-40 {
+  background: #B4B5F0;
+}
+.indigo-40-text {
+  color: #B4B5F0;
+}
+.indigo-50 {
+  background: #9B9DEB;
+}
+.indigo-50-text {
+  color: #9B9DEB;
+}
+.indigo-60 {
+  background: #8285E6;
+}
+.indigo-60-text {
+  color: #8285E6;
+}
+.indigo-70 {
+  background: #696DE1;
+}
+.indigo-70-text {
+  color: #696DE1;
+}
+.indigo-80 {
+  background: #5055DC;
+}
+.indigo-80-text {
+  color: #5055DC;
+}
+.indigo-90 {
+  background: #4646BD;
+}
+.indigo-90-text {
+  color: #4646BD;
+}
+.indigo-100 {
+  background: #3C3CA2;
+}
+.indigo-100-text {
+  color: #3C3CA2;
+}
+.indigo-110 {
+  background: #323287;
+}
+.indigo-110-text {
+  color: #323287;
+}
+.indigo-120 {
+  background: #28286C;
+}
+.indigo-120-text {
+  color: #28286C;
+}
+.indigo-130 {
+  background: #1E1E51;
+}
+.indigo-130-text {
+  color: #1E1E51;
+}
+.indigo-140 {
+  background: #141436;
+}
+.indigo-140-text {
+  color: #141436;
+}
+.indigo-150 {
+  background: #0A0A1B;
+}
+.indigo-150-text {
+  color: #0A0A1B;
+}
+.blue-10 {
+  background: #FCFBFD;
+}
+.blue-10-text {
+  color: #FCFBFD;
+}
+.blue-20 {
+  background: #D8E9F9;
+}
+.blue-20-text {
+  color: #D8E9F9;
+}
+.blue-30 {
+  background: #B4D7F5;
+}
+.blue-30-text {
+  color: #B4D7F5;
+}
+.blue-40 {
+  background: #90C5F1;
+}
+.blue-40-text {
+  color: #90C5F1;
+}
+.blue-50 {
+  background: #6CB3ED;
+}
+.blue-50-text {
+  color: #6CB3ED;
+}
+.blue-60 {
+  background: #48A1E9;
+}
+.blue-60-text {
+  color: #48A1E9;
+}
+.blue-70 {
+  background: #248FE5;
+}
+.blue-70-text {
+  color: #248FE5;
+}
+.blue-80 {
+  background: #007DE1;
+}
+.blue-80-text {
+  color: #007DE1;
+}
+.blue-90 {
+  background: #0069C4;
+}
+.blue-90-text {
+  color: #0069C4;
+}
+.blue-100 {
+  background: #005AA8;
+}
+.blue-100-text {
+  color: #005AA8;
+}
+.blue-110 {
+  background: #004B8C;
+}
+.blue-110-text {
+  color: #004B8C;
+}
+.blue-120 {
+  background: #003C70;
+}
+.blue-120-text {
+  color: #003C70;
+}
+.blue-130 {
+  background: #002D54;
+}
+.blue-130-text {
+  color: #002D54;
+}
+.blue-140 {
+  background: #001E38;
+}
+.blue-140-text {
+  color: #001E38;
+}
+.blue-150 {
+  background: #000F1C;
+}
+.blue-150-text {
+  color: #000F1C;
+}
+.light-blue-10 {
+  background: #FA100FA;
+}
+.light-blue-10-text {
+  color: #FA100FA;
+}
+.light-blue-20 {
+  background: #DCF8FA;
+}
+.light-blue-20-text {
+  color: #DCF8FA;
+}
+.light-blue-30 {
+  background: #BEF0FA;
+}
+.light-blue-30-text {
+  color: #BEF0FA;
+}
+.light-blue-40 {
+  background: #A0E8FA;
+}
+.light-blue-40-text {
+  color: #A0E8FA;
+}
+.light-blue-50 {
+  background: #82E0FA;
+}
+.light-blue-50-text {
+  color: #82E0FA;
+}
+.light-blue-60 {
+  background: #64D8FA;
+}
+.light-blue-60-text {
+  color: #64D8FA;
+}
+.light-blue-70 {
+  background: #46D0FA;
+}
+.light-blue-70-text {
+  color: #46D0FA;
+}
+.light-blue-80 {
+  background: #28C8FA;
+}
+.light-blue-80-text {
+  color: #28C8FA;
+}
+.light-blue-90 {
+  background: #23AFD9;
+}
+.light-blue-90-text {
+  color: #23AFD9;
+}
+.light-blue-100 {
+  background: #1E96BA;
+}
+.light-blue-100-text {
+  color: #1E96BA;
+}
+.light-blue-110 {
+  background: #197D9B;
+}
+.light-blue-110-text {
+  color: #197D9B;
+}
+.light-blue-120 {
+  background: #14647C;
+}
+.light-blue-120-text {
+  color: #14647C;
+}
+.light-blue-130 {
+  background: #0F4B5D;
+}
+.light-blue-130-text {
+  color: #0F4B5D;
+}
+.light-blue-140 {
+  background: #0A323E;
+}
+.light-blue-140-text {
+  color: #0A323E;
+}
+.light-blue-150 {
+  background: #05191F;
+}
+.light-blue-150-text {
+  color: #05191F;
+}
+.cyan-10 {
+  background: #FAFCFB;
+}
+.cyan-10-text {
+  color: #FAFCFB;
+}
+.cyan-20 {
+  background: #DCF6F3;
+}
+.cyan-20-text {
+  color: #DCF6F3;
+}
+.cyan-30 {
+  background: #BEF0EB;
+}
+.cyan-30-text {
+  color: #BEF0EB;
+}
+.cyan-40 {
+  background: #A0EAE3;
+}
+.cyan-40-text {
+  color: #A0EAE3;
+}
+.cyan-50 {
+  background: #82E4DB;
+}
+.cyan-50-text {
+  color: #82E4DB;
+}
+.cyan-60 {
+  background: #64DED3;
+}
+.cyan-60-text {
+  color: #64DED3;
+}
+.cyan-70 {
+  background: #46D8CB;
+}
+.cyan-70-text {
+  color: #46D8CB;
+}
+.cyan-80 {
+  background: #28D2C3;
+}
+.cyan-80-text {
+  color: #28D2C3;
+}
+.cyan-90 {
+  background: #23B6A8;
+}
+.cyan-90-text {
+  color: #23B6A8;
+}
+.cyan-100 {
+  background: #1E9C90;
+}
+.cyan-100-text {
+  color: #1E9C90;
+}
+.cyan-110 {
+  background: #198278;
+}
+.cyan-110-text {
+  color: #198278;
+}
+.cyan-120 {
+  background: #146860;
+}
+.cyan-120-text {
+  color: #146860;
+}
+.cyan-130 {
+  background: #0F4E48;
+}
+.cyan-130-text {
+  color: #0F4E48;
+}
+.cyan-140 {
+  background: #0A3430;
+}
+.cyan-140-text {
+  color: #0A3430;
+}
+.cyan-150 {
+  background: #051A18;
+}
+.cyan-150-text {
+  color: #051A18;
+}
+.green-10 {
+  background: #FAFFFE;
+}
+.green-10-text {
+  color: #FAFFFE;
+}
+.green-20 {
+  background: #E1FAE8;
+}
+.green-20-text {
+  color: #E1FAE8;
+}
+.green-30 {
+  background: #C8F5D2;
+}
+.green-30-text {
+  color: #C8F5D2;
+}
+.green-40 {
+  background: #AFF0BC;
+}
+.green-40-text {
+  color: #AFF0BC;
+}
+.green-50 {
+  background: #96EBA6;
+}
+.green-50-text {
+  color: #96EBA6;
+}
+.green-60 {
+  background: #7DE690;
+}
+.green-60-text {
+  color: #7DE690;
+}
+.green-70 {
+  background: #64E17A;
+}
+.green-70-text {
+  color: #64E17A;
+}
+.green-80 {
+  background: #4BDC64;
+}
+.green-80-text {
+  color: #4BDC64;
+}
+.green-90 {
+  background: #3FBD54;
+}
+.green-90-text {
+  color: #3FBD54;
+}
+.green-100 {
+  background: #36A248;
+}
+.green-100-text {
+  color: #36A248;
+}
+.green-110 {
+  background: #2D873C;
+}
+.green-110-text {
+  color: #2D873C;
+}
+.green-120 {
+  background: #246C30;
+}
+.green-120-text {
+  color: #246C30;
+}
+.green-130 {
+  background: #1B5124;
+}
+.green-130-text {
+  color: #1B5124;
+}
+.green-140 {
+  background: #123618;
+}
+.green-140-text {
+  color: #123618;
+}
+.green-150 {
+  background: #091B0C;
+}
+.green-150-text {
+  color: #091B0C;
+}
+.lime-10 {
+  background: #100FCFB;
+}
+.lime-10-text {
+  color: #100FCFB;
+}
+.lime-20 {
+  background: #F8F6DF;
+}
+.lime-20-text {
+  color: #F8F6DF;
+}
+.lime-30 {
+  background: #F0F0C3;
+}
+.lime-30-text {
+  color: #F0F0C3;
+}
+.lime-40 {
+  background: #E8EAA7;
+}
+.lime-40-text {
+  color: #E8EAA7;
+}
+.lime-50 {
+  background: #E0E48B;
+}
+.lime-50-text {
+  color: #E0E48B;
+}
+.lime-60 {
+  background: #D8DE6F;
+}
+.lime-60-text {
+  color: #D8DE6F;
+}
+.lime-70 {
+  background: #D0D853;
+}
+.lime-70-text {
+  color: #D0D853;
+}
+.lime-80 {
+  background: #C8D237;
+}
+.lime-80-text {
+  color: #C8D237;
+}
+.lime-90 {
+  background: #AFB62A;
+}
+.lime-90-text {
+  color: #AFB62A;
+}
+.lime-100 {
+  background: #969C24;
+}
+.lime-100-text {
+  color: #969C24;
+}
+.lime-110 {
+  background: #7D821E;
+}
+.lime-110-text {
+  color: #7D821E;
+}
+.lime-120 {
+  background: #646818;
+}
+.lime-120-text {
+  color: #646818;
+}
+.lime-130 {
+  background: #4B4E12;
+}
+.lime-130-text {
+  color: #4B4E12;
+}
+.lime-140 {
+  background: #32340C;
+}
+.lime-140-text {
+  color: #32340C;
+}
+.lime-150 {
+  background: #191A06;
+}
+.lime-150-text {
+  color: #191A06;
+}
+.yellow-10 {
+  background: #FFFEFC;
+}
+.yellow-10-text {
+  color: #FFFEFC;
+}
+.yellow-20 {
+  background: #FFF7D8;
+}
+.yellow-20-text {
+  color: #FFF7D8;
+}
+.yellow-30 {
+  background: #FFF0B4;
+}
+.yellow-30-text {
+  color: #FFF0B4;
+}
+.yellow-40 {
+  background: #FFE990;
+}
+.yellow-40-text {
+  color: #FFE990;
+}
+.yellow-50 {
+  background: #FFE26C;
+}
+.yellow-50-text {
+  color: #FFE26C;
+}
+.yellow-60 {
+  background: #FFDB48;
+}
+.yellow-60-text {
+  color: #FFDB48;
+}
+.yellow-70 {
+  background: #FFD424;
+}
+.yellow-70-text {
+  color: #FFD424;
+}
+.yellow-80 {
+  background: #FFCD00;
+}
+.yellow-80-text {
+  color: #FFCD00;
+}
+.yellow-90 {
+  background: #D9AF00;
+}
+.yellow-90-text {
+  color: #D9AF00;
+}
+.yellow-100 {
+  background: #BA9600;
+}
+.yellow-100-text {
+  color: #BA9600;
+}
+.yellow-110 {
+  background: #9B7D00;
+}
+.yellow-110-text {
+  color: #9B7D00;
+}
+.yellow-120 {
+  background: #7C6400;
+}
+.yellow-120-text {
+  color: #7C6400;
+}
+.yellow-130 {
+  background: #5D4B00;
+}
+.yellow-130-text {
+  color: #5D4B00;
+}
+.yellow-140 {
+  background: #3E3200;
+}
+.yellow-140-text {
+  color: #3E3200;
+}
+.yellow-150 {
+  background: #1F1900;
+}
+.yellow-150-text {
+  color: #1F1900;
+}
+.amber-10 {
+  background: #FFFDFC;
+}
+.amber-10-text {
+  color: #FFFDFC;
+}
+.amber-20 {
+  background: #FFF4D9;
+}
+.amber-20-text {
+  color: #FFF4D9;
+}
+.amber-30 {
+  background: #FFEBB6;
+}
+.amber-30-text {
+  color: #FFEBB6;
+}
+.amber-40 {
+  background: #FFE293;
+}
+.amber-40-text {
+  color: #FFE293;
+}
+.amber-50 {
+  background: #FFD970;
+}
+.amber-50-text {
+  color: #FFD970;
+}
+.amber-60 {
+  background: #FFD04D;
+}
+.amber-60-text {
+  color: #FFD04D;
+}
+.amber-70 {
+  background: #FFC72A;
+}
+.amber-70-text {
+  color: #FFC72A;
+}
+.amber-80 {
+  background: #FFBE07;
+}
+.amber-80-text {
+  color: #FFBE07;
+}
+.amber-90 {
+  background: #D9A100;
+}
+.amber-90-text {
+  color: #D9A100;
+}
+.amber-100 {
+  background: #BA8A00;
+}
+.amber-100-text {
+  color: #BA8A00;
+}
+.amber-110 {
+  background: #9B7300;
+}
+.amber-110-text {
+  color: #9B7300;
+}
+.amber-120 {
+  background: #7C5C00;
+}
+.amber-120-text {
+  color: #7C5C00;
+}
+.amber-130 {
+  background: #5D4500;
+}
+.amber-130-text {
+  color: #5D4500;
+}
+.amber-140 {
+  background: #3E2E00;
+}
+.amber-140-text {
+  color: #3E2E00;
+}
+.amber-150 {
+  background: #1F1700;
+}
+.amber-150-text {
+  color: #1F1700;
+}
+.orange-10 {
+  background: #FFFFFC;
+}
+.orange-10-text {
+  color: #FFFFFC;
+}
+.orange-20 {
+  background: #FFF0D8;
+}
+.orange-20-text {
+  color: #FFF0D8;
+}
+.orange-30 {
+  background: #FFE1B4;
+}
+.orange-30-text {
+  color: #FFE1B4;
+}
+.orange-40 {
+  background: #FFD290;
+}
+.orange-40-text {
+  color: #FFD290;
+}
+.orange-50 {
+  background: #FFC36C;
+}
+.orange-50-text {
+  color: #FFC36C;
+}
+.orange-60 {
+  background: #FFB448;
+}
+.orange-60-text {
+  color: #FFB448;
+}
+.orange-70 {
+  background: #FFA524;
+}
+.orange-70-text {
+  color: #FFA524;
+}
+.orange-80 {
+  background: #FF9600;
+}
+.orange-80-text {
+  color: #FF9600;
+}
+.orange-90 {
+  background: #D97E00;
+}
+.orange-90-text {
+  color: #D97E00;
+}
+.orange-100 {
+  background: #BA6C00;
+}
+.orange-100-text {
+  color: #BA6C00;
+}
+.orange-110 {
+  background: #9B5A00;
+}
+.orange-110-text {
+  color: #9B5A00;
+}
+.orange-120 {
+  background: #7C4800;
+}
+.orange-120-text {
+  color: #7C4800;
+}
+.orange-130 {
+  background: #5D3600;
+}
+.orange-130-text {
+  color: #5D3600;
+}
+.orange-140 {
+  background: #3E2400;
+}
+.orange-140-text {
+  color: #3E2400;
+}
+.orange-150 {
+  background: #1F1200;
+}
+.orange-150-text {
+  color: #1F1200;
+}
+.deep-orange-10 {
+  background: #FFFEFC;
+}
+.deep-orange-10-text {
+  color: #FFFEFC;
+}
+.deep-orange-20 {
+  background: #FFE8D8;
+}
+.deep-orange-20-text {
+  color: #FFE8D8;
+}
+.deep-orange-30 {
+  background: #FFD2B4;
+}
+.deep-orange-30-text {
+  color: #FFD2B4;
+}
+.deep-orange-40 {
+  background: #FFBC90;
+}
+.deep-orange-40-text {
+  color: #FFBC90;
+}
+.deep-orange-50 {
+  background: #FFA66C;
+}
+.deep-orange-50-text {
+  color: #FFA66C;
+}
+.deep-orange-60 {
+  background: #FF9048;
+}
+.deep-orange-60-text {
+  color: #FF9048;
+}
+.deep-orange-70 {
+  background: #FF7A24;
+}
+.deep-orange-70-text {
+  color: #FF7A24;
+}
+.deep-orange-80 {
+  background: #FF6400;
+}
+.deep-orange-80-text {
+  color: #FF6400;
+}
+.deep-orange-90 {
+  background: #D95400;
+}
+.deep-orange-90-text {
+  color: #D95400;
+}
+.deep-orange-100 {
+  background: #BA4800;
+}
+.deep-orange-100-text {
+  color: #BA4800;
+}
+.deep-orange-110 {
+  background: #9B3C00;
+}
+.deep-orange-110-text {
+  color: #9B3C00;
+}
+.deep-orange-120 {
+  background: #7C3000;
+}
+.deep-orange-120-text {
+  color: #7C3000;
+}
+.deep-orange-130 {
+  background: #5D2400;
+}
+.deep-orange-130-text {
+  color: #5D2400;
+}
+.deep-orange-140 {
+  background: #3E1800;
+}
+.deep-orange-140-text {
+  color: #3E1800;
+}
+.deep-orange-150 {
+  background: #1F0C00;
+}
+.deep-orange-150-text {
+  color: #1F0C00;
+}
+.grey-10 {
+  background: #FFFFFF;
+}
+.grey-10-text {
+  color: #FFFFFF;
+}
+.grey-20 {
+  background: #EEEEEE;
+}
+.grey-20-text {
+  color: #EEEEEE;
+}
+.grey-30 {
+  background: #DDDDDD;
+}
+.grey-30-text {
+  color: #DDDDDD;
+}
+.grey-40 {
+  background: #CCCCCC;
+}
+.grey-40-text {
+  color: #CCCCCC;
+}
+.grey-50 {
+  background: #BBBBBB;
+}
+.grey-50-text {
+  color: #BBBBBB;
+}
+.grey-60 {
+  background: #AAAAAA;
+}
+.grey-60-text {
+  color: #AAAAAA;
+}
+.grey-70 {
+  background: #999999;
+}
+.grey-70-text {
+  color: #999999;
+}
+.grey-80 {
+  background: #888888;
+}
+.grey-80-text {
+  color: #888888;
+}
+.grey-90 {
+  background: #777777;
+}
+.grey-90-text {
+  color: #777777;
+}
+.grey-100 {
+  background: #666666;
+}
+.grey-100-text {
+  color: #666666;
+}
+.grey-110 {
+  background: #555555;
+}
+.grey-110-text {
+  color: #555555;
+}
+.grey-120 {
+  background: #444444;
+}
+.grey-120-text {
+  color: #444444;
+}
+.grey-130 {
+  background: #333333;
+}
+.grey-130-text {
+  color: #333333;
+}
+.grey-140 {
+  background: #222222;
+}
+.grey-140-text {
+  color: #222222;
+}
+.grey-150 {
+  background: #111111;
+}
+.grey-150-text {
+  color: #111111;
+}
+.blue-grey-10 {
+  background: #100FCFF;
+}
+.blue-grey-10-text {
+  color: #100FCFF;
+}
+.blue-grey-20 {
+  background: #EAE9EE;
+}
+.blue-grey-20-text {
+  color: #EAE9EE;
+}
+.blue-grey-30 {
+  background: #D4D6DD;
+}
+.blue-grey-30-text {
+  color: #D4D6DD;
+}
+.blue-grey-40 {
+  background: #BEC3CC;
+}
+.blue-grey-40-text {
+  color: #BEC3CC;
+}
+.blue-grey-50 {
+  background: #A8B0BB;
+}
+.blue-grey-50-text {
+  color: #A8B0BB;
+}
+.blue-grey-60 {
+  background: #929DAA;
+}
+.blue-grey-60-text {
+  color: #929DAA;
+}
+.blue-grey-70 {
+  background: #7C8A99;
+}
+.blue-grey-70-text {
+  color: #7C8A99;
+}
+.blue-grey-80 {
+  background: #667788;
+}
+.blue-grey-80-text {
+  color: #667788;
+}
+.blue-grey-90 {
+  background: #546277;
+}
+.blue-grey-90-text {
+  color: #546277;
+}
+.blue-grey-100 {
+  background: #485466;
+}
+.blue-grey-100-text {
+  color: #485466;
+}
+.blue-grey-110 {
+  background: #3C4655;
+}
+.blue-grey-110-text {
+  color: #3C4655;
+}
+.blue-grey-120 {
+  background: #303844;
+}
+.blue-grey-120-text {
+  color: #303844;
+}
+.blue-grey-130 {
+  background: #242A33;
+}
+.blue-grey-130-text {
+  color: #242A33;
+}
+.blue-grey-140 {
+  background: #181C22;
+}
+.blue-grey-140-text {
+  color: #181C22;
+}
+.blue-grey-150 {
+  background: #0C0E11;
+}
+.blue-grey-150-text {
+  color: #0C0E11;
+}
